@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^saharamaritime\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.saharamaritime\.com$
+RewriteRule ^(.*)$ "https\:\/\/saharamaritime\.com\/$1" [R=301,L]
+
