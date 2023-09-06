@@ -47,7 +47,7 @@ class MyHeader extends HTMLElement{
                                     <li><a href="#">Shareholding Documents</a></li>
                                     <li><a href="#">Corporate Policies</a></li>
                                     <li><a href="#">Annual Reports</a></li>
-                                    <li><a href="#">Initial Public Offer(IPO)</a></li>
+                                    <li><a href="page-ipo.html">Initial Public Offer(IPO)</a></li>
                                     <li><a href="#">Annual Returns</a></li>
                                     <li><a href="#">News and Information</a></li>
                                     <li><a href="#">Corporate Announcement</a></li>
